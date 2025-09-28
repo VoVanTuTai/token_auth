@@ -21,7 +21,7 @@ POST: http://localhost:3000/api/auth/login (đăng nhập sai)
 body->raw->chỉnh type sang Json nội dung "{"email":"tutai@.com", "password":"12345"}"
 <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/token_auth/blob/main/Images_report/login_not_found.png" />
 POST: http://localhost:3000/api/auth/login (đăng nhập đúng)
-body->raw->chỉnh type sang Json nội dung "{"username":"VoVanTuTai", "password":"12345"}"
+body->raw->chỉnh type sang Json nội dung "{"email":"tutai@gmail.com", "password":"12345"}"
 <img width="960" height="540" alt="3000" src="https://github.com/VoVanTuTai/token_auth/blob/main/Images_report/login_success.png" />
 GET: http://localhost:3000/api/auth/profile (xem profile khi không có token)
 Trong tab Headers của Postman không thêm:
